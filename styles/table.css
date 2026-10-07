@@ -1,3 +1,7 @@
+.table-wrapper {
+  overflow-x: auto;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -16,4 +20,10 @@ td {
 
 .litur {
   background-color: var(--color-table-stripe);
+}
+
+@media (max-width: 700px) {
+  table {
+    min-width: var(--min-width-table);
+  }
 }

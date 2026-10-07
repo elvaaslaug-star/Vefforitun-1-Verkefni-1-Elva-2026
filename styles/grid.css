@@ -1,5 +1,5 @@
 :root {
-  --grid-color: hsl(255deg 75% 75% / 25%);
+  --grid-color: none;
   --grid-repeating-width: calc(100% / var(--columns));
   --grid-column-width: calc((100% / var(--columns)) - var(--gutter));
   --grid-background-width: calc(100% + var(--gutter));
