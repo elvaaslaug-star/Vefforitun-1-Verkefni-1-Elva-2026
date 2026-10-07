@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Uppgötvaðu Ísland með fjölbreyttu úrvali ferða og upplifana allan ársins hring. Kynntu þér ferðirnar okkar og bókaðu næsta ævintýri."
+    />
+    <meta name="og:title" content="Skráning í ferð" />
+    <meta name="og:description" content="Skráðu þig í þína draumaferð." />
+
+    <title>Bóka ferðir</title>
+
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Skráning í ferð</h1>
+    </header>
+
+    <p class="sr-only"><a href="#efni">Beint í efni</a>.</p>
+
+    <nav>
+      <ul>
+        <li><a href="../index.html">Forsíða</a></li>
+        <li><a href="um.html">Um fyrirtækið</a></li>
+        <li><a href="ferdir.html">Ferðir</a></li>
+        <li>
+          <strong><a href="boka.html">Skráning í ferð</a></strong>
+        </li>
+      </ul>
+    </nav>
+
+    <main id="efni">
+      <form method="get" action=".">
+        <fieldset>
+          <legend>Ferð</legend>
+          <div>
+            <label for="ferd">Hvaða ferð viljið þið skrá ykkur á?</label>
+            <select id="ferd" name="ferd">
+              <option value="">Veldu ferð</option>
+              <option value="1">Jöklaklifur</option>
+              <option value="2">Róleg gögnuferð á Suðurlandi</option>
+              <option value="3">Gullnihringurinn</option>
+              <option value="4">Silfurkassinn</option>
+              <option value="5">Bronsþríhyrningurinn</option>
+              <option value="6">Köfunarferð</option>
+              <option value="7">Norðurljósaferð</option>
+              <option value="8">Reykjavíkurrölt</option>
+            </select>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Hópur</legend>
+          <div>
+            <label for="hopur">Fjöldi í hóp</label>
+            <select id="hopur" name="hopur">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9</option>
+              <option>10</option>
+              <option>11</option>
+              <option>12</option>
+              <option>13</option>
+              <option>14</option>
+              <option>15</option>
+            </select>
+          </div>
+          <div>
+            <label for="upplysingar"
+              >Upplýsingar um hóp - hver er reynsla hópsins?</label
+            >
+            <input type="text" id="upplysingar" name="upplysingar" required />
+          </div>
+          <div>
+            <label for="netfang">Netfang tengiliðar</label>
+            <input
+              type="email"
+              id="netfang"
+              placeholder="abc@netfang.is"
+              name="netfang"
+              required
+            />
+          </div>
+          <div>
+            <label for="simi">Símanúmer</label>
+            <input type="tel" id="simi" placeholder="000-0000" name="simi" />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Dagsetning og tími</legend>
+          <div>
+            <label for="dagsetning">Hvenær viljið þið koma?</label>
+            <select id="dagsetning" name="dagsetning" required>
+              <option value="">Veldu dagsetningu</option>
+              <option value="1">Mánudagur</option>
+              <option value="2">Þriðjudagur</option>
+              <option value="3">Miðvikudagur</option>
+              <option value="4">Fimmtudagur</option>
+              <option value="5">Föstudagur</option>
+              <option value="6">Laugardagur</option>
+              <option value="7">Sunnudagur</option>
+            </select>
+          </div>
+          <div>
+            <label for="tima">Hvaða tíma?</label>
+            <select id="tima" name="tima" required>
+              <option value="">Veldu tíma</option>
+              <option value="1">Fyrir hádegi</option>
+              <option value="2">Eftir hádegi</option>
+              <option value="3">Kvöld</option>
+            </select>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Bóka</legend>
+          <div class="checkbox-plass">
+            <input
+              name="samþykki"
+              type="checkbox"
+              id="boka"
+              class="checkbox"
+              required
+            />
+            <a href="./um.html" target="_blank">Samþykki skilmála</a>
+          </div>
+        </fieldset>
+        <button class="takki">Panta og greiða</button>
+
+        <a href="../index.html">Aftur á forsíðu</a>
+      </form>
+    </main>
+
+    <footer>
+      <div class="footer-cards">
+        <div class="card opnunartímar">
+          <h3>Opnunartímar á skrifstofu</h3>
+          <p>Mánudaga - Föstudaga:</p>
+          <p>12:00 - 18:00</p>
+          <p>Laugardagar:</p>
+          <p>14:00 - 16:00</p>
+          <p>Sunnudagar:</p>
+          <p>Lokað</p>
+        </div>
+
+        <div class="card hafdusamband">
+          <h3>Hafðu samband</h3>
+          <p>Heimilisfang:</p>
+          <p>Ferðaþjónustufyrirtækið</p>
+          <p>Ferðagata 1</p>
+          <p>101 Reykjavík</p>
+          <p>Sími:</p>
+          <p>234-2345</p>
+          <p>Netfang:</p>
+          <p>ferdathjonustufyrirtaekid@example.org</p>
+        </div>
+
+        <div class="card samfelagsmidlar">
+          <h3>Samfélagsmiðlar</h3>
+
+          <p>
+            <a href="https://www.facebook.com/HaskoliIslands/" target="_blank"
+              >Facebook</a
+            >
+          </p>
+          <p>
+            <a href="https://www.instagram.com/haskoli_islands/" target="_blank"
+              >Instagram</a
+            >
+          </p>
+          <p>
+            <a href="https://www.youtube.com/user/HIvarp" target="_blank"
+              >YouTube</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

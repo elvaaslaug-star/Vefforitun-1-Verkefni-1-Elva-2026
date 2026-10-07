@@ -1,0 +1,60 @@
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+fieldset {
+  border: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  width: 50%;
+}
+
+fieldset legend {
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+}
+
+input,
+select,
+textarea {
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.checkbox {
+  width: auto;
+}
+
+form.takki,
+form button,
+input[type="submit"] {
+  width: auto;
+  justify-self: start;
+}
+
+.checkbox-plass {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 700px) {
+  fieldset {
+    width: 100%;
+  }
+}

@@ -1,0 +1,19 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
+}
+
+td {
+  text-align: left;
+  padding: 10px;
+}
+
+.litur {
+  background-color: #81b2d9;
+}

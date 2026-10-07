@@ -1,0 +1,21 @@
+{
+  "name": "vef1-2026-v3-unnid-i-tima",
+  "version": "1.0.0",
+  "description": "Verkefni 3",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "parcel index.html 'sidur/*.html' --lazy --no-cache",
+    "build": "parcel build index.html 'sidur/*.html'",
+    "lint": "stylelint '**/*.css'",
+    "lint:fix": "stylelint '**/*.css' --fix"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4",
+    "stylelint": "^7.7.0",
+    "stylelint-config-recess-order": "^2.0.0",
+    "stylelint-config-standard": "^15.0.1",
+    "stylelint-order": "^0.2.2"
+  }
+}
