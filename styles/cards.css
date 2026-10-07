@@ -10,7 +10,7 @@
   grid-template-rows: auto 1fr auto;
 }
 
-@media (max-width: 700px) {
+@media (max-width >= 700px) {
   .cards .card {
     grid-column: span 12;
   }
