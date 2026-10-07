@@ -1,8 +1,8 @@
 footer {
   width: 100%;
-  background-color: #32769b;
-  color: white;
-  border-top: 2px solid black;
+  background-color: var(--color-accent);
+  color: var(--color-input-background);
+  border-top: 2px solid var(--color-border);
 }
 
 .footer-cards {

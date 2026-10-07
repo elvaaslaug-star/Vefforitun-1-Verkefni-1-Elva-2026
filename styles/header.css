@@ -1,5 +1,5 @@
 header {
-  background-color: #bddcf5;
+  background-color: var(--color-accent-contrast);
   width: 100%;
 }
 

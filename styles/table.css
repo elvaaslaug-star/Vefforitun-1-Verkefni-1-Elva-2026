@@ -15,5 +15,5 @@ td {
 }
 
 .litur {
-  background-color: #81b2d9;
+  background-color: var(--color-table-stripe);
 }
