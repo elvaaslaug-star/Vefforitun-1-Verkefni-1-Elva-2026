@@ -4,4 +4,3 @@
 - [Verkefni 2](https://github.com/vefforritun/vef1-2026-v2) setur upp útlit með CSS.
 - [Verkefni 3](https://github.com/vefforritun/vef1-2026-v3) gerir útlit skalanlegt (e. responsive) með CSS og setur upp tól til að hjálpa við vinnu og skipulag.
 
-#Enjoy my blood sweat and tears
