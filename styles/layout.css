@@ -16,6 +16,7 @@ main section {
   display: grid;
   grid-template-columns: 1fr;
   justify-items: start;
+  align-items: start;
   gap: 20px;
 }
 
@@ -49,4 +50,5 @@ main p {
 
 main .takki {
   justify-self: start;
+  align-self: start;
 }

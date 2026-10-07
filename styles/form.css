@@ -43,6 +43,7 @@ form button,
 input[type="submit"] {
   width: auto;
   justify-self: start;
+  color: var(--color-accent);
 }
 
 .checkbox-plass {

@@ -34,3 +34,17 @@ nav ul a {
 nav ul a:hover {
   font-weight: 700;
 }
+
+@media (max-width: 700px) {
+  nav {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 500px) {
+  nav ul {
+    grid-auto-flow: row;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px 20px;
+  }
+}
